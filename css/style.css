@@ -1,0 +1,503 @@
+*{
+	box-sizing:border-box;
+}
+	
+	body{
+	
+		font-family: 'Oswald';
+	}
+	
+	/*************** (nav par) *******************/
+	
+	nav{
+		background-color:black;
+	}
+	nav a {
+		color:white;
+		background-color:black;
+		font-size: 15px;
+		padding: 12px 15px;
+		display:inline-block;
+	}
+	nav #as {	
+		float:right;
+	}
+	
+	nav a:hover {
+		color:black;
+		background-color:#D3D3D3;
+	}
+	
+	/*************** (header) *******************/
+	
+	header{
+		padding-top: 48px;
+		padding-bottom: 48px;
+	}
+	
+	header #p1{
+	
+		text-align:center;
+		font-size:48px;
+		font-weight:bolder;
+		color:black;
+		font-family:'Oswald';
+		margin:10px 0px;
+		
+	}
+	header h6{
+		text-align:center;
+		font-size: 16px;
+		margin:10px 0px;
+		font-weight:400;
+
+		
+	}
+	header h6 span{
+		color:white;
+		background-color:black;
+		margin: 10px 0;
+		font-weight: 400;
+		padding: 2px 8px;
+		display:inline-block;
+	}
+	
+	/*************** (section) *******************/
+	
+	 .img{
+		position:relative;
+		
+	}
+	.img .ad{
+		position:absolute;
+		color:white;
+		top:35%;
+		left:20px;
+	}
+	.img .ad #t1{
+		font-size:36px;
+		margin:10px 0px;
+		font-weight: 400;
+		letter-spacing: 4px;
+	}
+	.img .ad #t2{
+		font-size:64px;
+		padding:0px;
+		margin:15px 0px;
+		letter-spacing: 4px;
+		font-weight: bolder;
+	}
+	.img .ad button{
+		padding:16px 26px;
+		border:none;
+		background-color:rgb(255,255,255,0.6);
+		font-weight:bold;
+		margin:15px 0px;
+		font-size:18px px;
+		font-weight: 400;
+	}
+	.img .ad button:hover{
+		background-color:#ccc;
+	}
+	
+	/*************** (main) *******************/
+	
+	main{
+		background-color:#F1F1F1;
+		height:auto;
+		overflow:auto;
+		padding:20px 10px;
+		position:relative;
+		
+	}
+	main .art{
+		background-color:F1F1F1;
+		width:65%;
+		float:left;
+		padding:20px 10px 20px 20px;
+		margin-bottom:25px;	
+		
+	}
+	
+	/*************** (main article) *******************/
+
+	main .art #msa1{
+		padding:20px 0px;
+		background-color:white;
+		padding:20px 20px;
+	}
+	main .art #msa1 #sah3 {
+		text-align:center;
+	}
+	main .art #msa1 #sah61{
+		text-align:center;
+		}
+	main .art #msa1 #sah62{
+		opacity: 0.60;
+	}
+		main .art #msa1 #sai1{
+		width:100%;
+	}
+	main .art #msa1 #sap1, #sap2{
+		text-align: justify;
+		}
+	main .art #msa1 .sad1{   
+		margin-bottom:15px;
+		background-color:white;
+		}
+	main .art #msa1 .sad1 #sab1{
+		background-color:white;
+		padding:8px 16px;
+		border: 1px solid #ccc;
+	}
+	main .art #msa1 .sad1 #sab2{
+		float:right;
+		color:white;
+		background-color:black;
+		font-size:15px;
+		border:nune;
+		padding:10px 20px;
+		font-family: 'Open Sans';
+	}
+	main .art #msa1 .sad1 #sab2 span{
+		color:black;
+		background-color:white;
+		padding:2px 6px;
+		font-family: 'Open Sans';
+	}
+	main .art #msa1 #sad2{
+	position:relative;
+	}
+	
+	main .art #msa1 #sad2 #hr1{
+	border: 0;
+    border-top: 1px solid #eee;
+	margin-top:40px;
+	margin-bottom:18px;
+	}
+	main .art #msa1 #sad2 #img1{
+		width:90;
+		height:100;
+		
+	}
+	
+	main .art #msa1 #sad2 #msadh1{
+		font-size:20px;
+		font-weight: 400;
+		font-family:'Oswald';
+		position:absolute;
+		left:15%;
+		top:30%
+	
+	}
+	main .art #msa1 #sad2 #msadh1 #msadhs1{
+		opacity: 0.60;
+		font-weight:nune;
+		font-family:'Oswald';
+		color:black;
+		font-size:15px;	
+	}
+	main .art #msa1 #sad2 #msadp1{
+		font-size:15px;
+		font-family:'Open Sans';
+		position:absolute;
+		left:15%;
+		top:60%;
+		color:black;
+		text-align: justify;
+	}
+	main .art #hr2{
+		border:0;
+		border-top: 1px solid #eee;
+		background-color:#F1F1F1;
+		padding:13px;
+		width:100%;
+		left:0;
+		display:inline-block;
+	}
+	main .art #hr3{
+		border:0;
+		border-top: 1px solid #eee;
+		background-color:#F1F1F1;
+		padding:4px;
+		width:100%;
+		left:0;
+		display:inline-block;
+	}
+	
+		/*************** (main aside) *******************/
+	
+	.ma1{
+		
+		width:35%;
+		float:right;
+		padding:20px 20px 20px 10px;
+	}
+	.ma1 hr{
+		border:0;
+		border-top: 1px solid #eee;
+		background-color:#F1F1F1;
+		padding:13px;
+		width:100%;
+		left:0;
+		display:inline-block;
+		
+	}
+	.ma1 .aa1 #aai1{
+		width:100%;
+	}
+	.ma1 .aa1 .aad1{
+		background-color:black;
+		color:white;
+		padding:10px;
+	}
+	
+	   /*************** (main aside article 1) *******************/
+	
+	.ma1 .aa1 .aad1 h4{
+		font-size:20px;
+		font-weight: 400;
+		font-family:'Oswald';
+		margin:10px 0px;
+	}
+	.ma1 .aa1 .aad1 p{
+		font-size:15px;
+		font-family:'Open Sans';
+		margin:10px 0px;
+		line-height: 1.5;
+	}
+	
+	   /*************** (main aside article 2) *******************/
+	
+	.ma1 .aa2 h4{
+		background-color:black;
+		color:white;
+		font-size:20px;
+		font-weight: 400;
+		font-family:'Oswald';
+		margin:0 0;
+		padding:20px;
+	}
+	.ma1 .aa2 .aa2d1{
+		background-color:white;
+		color:black;
+		position:relative;
+	}
+	.ma1 .aa2 .aa2d1 .aa2d1u{
+		list-style-type: none;
+		margin:0 0;
+		padding:0px 0px;
+		
+		
+	}
+	.ma1 .aa2 .aa2d1 .aa2d1u li{
+		padding:16px 10px;
+		border-bottom: 1px solid #ddd;
+		position:relative;
+		
+	}
+	.ma1 .aa2 .aa2d1 .aa2d1u li .p1{
+		text-align:center;
+		font-size:18px;
+		font-family:'Open Sans';
+		margin:0px;
+		left:20%;
+		position:absolute;
+		top:22%;
+		
+	}   
+	.ma1 .aa2 .aa2d1 .aa2d1u li .p2{
+		font-size:15px;
+		font-family:'Open Sans';
+		margin:0px;
+		left:20%;
+		top:55%;
+		position:absolute;
+	}
+	.ma1 .aa2 .aa2d1 .aa2d1u li:hover{
+		background-color:#ccc;
+	}
+	
+	   /*************** (main aside article 3) *******************/
+	
+	.ma1 .aa3 h4{
+		background-color:black;
+		color:white;
+		font-size:20px;
+		font-weight: 400;
+		font-family:'Oswald';
+		margin:0 0;
+		padding:20px;
+	}
+	.ma1 .aa3 .aa3d1{
+		background-color:white;
+		padding:10px;
+	}
+	.ma1 .aa3 .aa3d1 p{
+		background-color:#f1f1f1;
+		padding: 80px 100px;
+		margin:10px;
+		text-align:center;
+	}
+	
+	   /*************** (main aside article 4) *******************/
+	
+	.ma1 .aa4 h4{
+		background-color:black;
+		color:white;
+		font-size:20px;
+		font-weight: 400;
+		font-family:'Oswald';
+		margin:0 0;
+		padding:20px;	
+	}
+	.ma1 .aa4 .aa4d1{
+		background-color:white;
+		padding:16px 20px 16px 16px;
+
+	}
+	.ma1 .aa4 .aa4d1 p{
+		margin:0px;
+		
+		
+	
+	}
+	.ma1 .aa4 .aa4d1 #black{
+		font-family:'Open Sans';
+		font-size:15px;
+		color:white;
+		background-color:black;
+		padding:8px 8px;
+		margin:0 2px;
+	}
+	.ma1 .aa4 .aa4d1 span{
+		font-family:'Open Sans';
+		font-size:12px;	
+		color:black;
+		background-color:#f1f1f1;
+		padding:5px 5px;
+		margin:16px 6px 16px 5px;
+		display: inline-block;
+	}
+	
+	   /*************** (main aside article 5) *******************/
+	
+	.ma1 .aa5{
+		padding:0px;
+		margin:0px;
+	}
+	.ma1 .aa5 h4{
+		background-color:black;
+		color:white;
+		font-size:20px;
+		font-weight: 400;
+		font-family:'Oswald';
+		margin:0 0;
+		padding:20px;	
+	}
+	.ma1 .aa5 .aa5d0{
+		background-color:white;
+		padding:8px;
+		overflow:auto;
+		height:auto;
+	
+	}
+	.ma1 .aa5 .aa5d1{
+		box-sizing:border-box;
+		float:left;
+		width:50%;
+		padding:0px 8px;
+		background-color:white;
+	}
+	.ma1 .aa5 .aa5d1 img{
+		margin:8px 0px;
+	}
+	.ma1 .aa5 .aa5d2{
+		box-sizing:border-box;
+		float:right;
+		width:50%;
+		padding:0px 8px;
+		background-color:white;
+	}
+	.ma1 .aa5 .aa5d2 img{
+		margin:8px 0px;
+	}
+	
+	   /*************** (main aside article 6) *******************/
+	
+	.ma1 .aa6 h4{
+		background-color:black;
+		color:white;
+		font-size:20px;
+		font-weight: 400;
+		font-family:'Oswald';
+		margin:0 0;
+		padding:20px;		
+	}
+	.ma1 .aa6 div {
+		padding:10px;
+		background-color:white;
+	}
+	.ma1 .aa6 div a{
+		color:black;
+		background-color:white;
+		font-size: 23px;
+		padding: 8px 3px;
+		display:inline-block;		
+	}
+	.ma1 .aa6 div a:hover{
+		opacity: 0.60;
+	}
+	
+	   /*************** (main aside article 7) *******************/
+	
+	.ma1 .aa7 h4{
+		background-color:black;
+		color:white;
+		font-size:20px;
+		font-weight: 400;
+		font-family:'Oswald';
+		margin:0 0;
+		padding:20px;		
+	}
+	.ma1 .aa7 .aa7d1{
+		background-color:white;
+		margin:0;
+		padding:10px;
+	}
+	.ma1 .aa7 .aa7d1 p{
+		font-size:15px;
+		font-family:'Open Sans';
+		margin:10px 0px;
+	}
+	.ma1 .aa7 .aa7d1 input{
+		width:100%;
+		line-height:1.5;
+		border: 1px solid #ccc;
+		padding:5px
+	}
+	.ma1 .aa7 .aa7d1 button{
+		width:100%;
+		padding:10px;
+		background-color:#f44336;
+		color:white;
+		margin:13px 0px;
+		border:none;
+
+	}
+	.ma1 .aa7 .aa7d1 button:hover{
+		color:black;
+		background-color:#ccc;
+	}
+	
+	   /*************** (footer) *******************/
+	
+	footer{
+		background-color:#616161;
+		padding:32px;
+	}
+	footer button{
+		color:white;
+		background-color:black;
+		padding:10px 16;
+	}
